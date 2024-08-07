@@ -1,5 +1,6 @@
 import {Popover , Disclosure} from "@headlessui/react";
 import {Link} from "react-router-dom";
+import classNames from "classnames";
 
 export default function More() {
     return (
@@ -107,49 +108,71 @@ export default function More() {
                     </button>
                 </Link>
 
+                    <div className="h-px bg-[#2f3336] my-0.5 w-[89%] mx-auto"/>
+
                 <Disclosure>
-                    <Disclosure.Button
-                        className="py-2 h-[52px] flex items-center justify-between w-full px-4 font-bold hover:bg-[#eff3f41a] transition-colors">
-                        İçerik Üretici Stüdyosu
-                        <svg viewBox="0 0 24 24" width={18.75} height={18.75}>
-                            <path
-                                fill="currentColor"
-                                d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"/>
-                        </svg>
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="text-gray-500">
-                        Yes! You can purchase a license that you can share with your entire
-                        team.
-                    </Disclosure.Panel>
+                    {({open}) => (
+                        <>
+                            <Disclosure.Button
+                                className="h-[52px] flex items-center justify-between w-full px-4 font-bold hover:bg-[#eff3f41a] transition-colors">
+                                İçerik Üretici Stüdyosu
+                                <svg className={classNames({
+                                    "rotate-90 text-[#1d9bf0]" : open
+                                })} viewBox="0 0 24 24" width={18.75} height={18.75}>
+                                    <path
+                                        fill="currentColor"
+                                        d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"/>
+                                </svg>
+                            </Disclosure.Button>
+                            <Disclosure.Panel className="text-gray-500">
+                                Yes! You can purchase a license that you can share with your entire
+                                team.
+                            </Disclosure.Panel>
+                        </>
+                    )}
                 </Disclosure>
                 <Disclosure>
-                    <Disclosure.Button
-                        className="py-2 h-[52px] flex items-center justify-between w-full px-4 font-bold hover:bg-[#eff3f41a] transition-colors">
-                        Profesyonel Araçlar
-                        <svg viewBox="0 0 24 24" width={18.75} height={18.75}>
-                            <path
-                                fill="currentColor"
-                                d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"/>
-                        </svg>
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="text-gray-500">
+                    {({open}) => (
+                        <>
+                        <Disclosure.Button
+                            className="py-2 h-[52px] flex items-center justify-between w-full px-4 font-bold hover:bg-[#eff3f41a] transition-colors">
+                            Profesyonel Araçlar
+                            <svg  className={classNames({
+                                "rotate-90 text-[#1d9bf0]" : open
+                            })}
+                                  viewBox="0 0 24 24" width={18.75} height={18.75}>
+                                <path
+                                    fill="currentColor"
+                                    d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"/>
+                            </svg>
+                        </Disclosure.Button>
+                        <Disclosure.Panel className="text-gray-500">
                         Yes! You can purchase a license that you can share with your entire
                         team.
-                    </Disclosure.Panel>
+                        </Disclosure.Panel>
+                        </>
+                    )}
                 </Disclosure>
                 <Disclosure>
-                    <Disclosure.Button className="py-2 h-[52px] flex items-center justify-between w-full px-4 font-bold hover:bg-[#eff3f41a] transition-colors">
-                        Destek ve İletişim
-                        <svg viewBox="0 0 24 24" width={18.75} height={18.75}>
-                            <path
-                                fill="currentColor"
-                                d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"/>
-                        </svg>
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="text-gray-500">
+                    {({open}) => (
+                        <>
+                        <Disclosure.Button className=" h-[52px] flex items-center justify-between w-full px-4 font-bold hover:bg-[#eff3f41a] transition-colors">
+                            Destek ve İletişim
+                            <svg className={classNames({
+                                "rotate-90 text-[#1d9bf0]" : open
+                            })}
+                                 viewBox="0 0 24 24" width={18.75} height={18.75}>
+                                <path
+                                    fill="currentColor"
+                                    d="M14.586 12L7.543 4.96l1.414-1.42L17.414 12l-8.457 8.46-1.414-1.42L14.586 12z"/>
+                            </svg>
+                        </Disclosure.Button>
+                        <Disclosure.Panel className="text-gray-500">
                         Yes! You can purchase a license that you can share with your entire
                         team.
-                    </Disclosure.Panel>
+                        </Disclosure.Panel>
+                        </>
+                    )}
                 </Disclosure>
             </Popover.Panel>
         </Popover>
