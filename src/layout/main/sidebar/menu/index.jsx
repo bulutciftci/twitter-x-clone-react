@@ -1,6 +1,6 @@
 import {NavLink} from "react-router-dom";
 import classNames from "classnames";
-import {mainMenu} from "~/utils.consts.jsx";
+import {mainMenu} from "../../../../../utils/utils.consts.jsx";
 import More from "~/layout/main/sidebar/menu/more/index.jsx";
 import New from "~/layout/main/sidebar/menu/new/index.jsx";
 import {useAccount} from "~/store/auth/hooks.js";

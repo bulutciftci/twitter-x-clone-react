@@ -1,4 +1,4 @@
-import store from './store';
+import store from '~/store/index.js';
 
 
 
@@ -240,5 +240,129 @@ export const mainMenu = [
             )
 
         }
+    }
+]
+
+export const topics = [
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic : {
+            type:'tag',
+            value:'dilanpolat'
+        },
+        postCount: 2000
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type : 'query',
+            value: 'Starlink'
+        },
+        postCount: 15478
+    },{
+        title: 'Türkiye tarihinde gündemde',
+        topic : {
+            type:'tag',
+            value:'dilanpolat'
+        },
+        postCount: 2000
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type : 'query',
+            value: 'Starlink'
+        },
+        postCount: 15478
+    },{
+        title: 'Türkiye tarihinde gündemde',
+        topic : {
+            type:'tag',
+            value:'dilanpolat'
+        },
+        postCount: 2000
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type : 'query',
+            value: 'Starlink'
+        },
+        postCount: 15478
+    },{
+        title: 'Türkiye tarihinde gündemde',
+        topic : {
+            type:'tag',
+            value:'dilanpolat'
+        },
+        postCount: 2000
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type : 'query',
+            value: 'Starlink'
+        },
+        postCount: 15478
+    },{
+        title: 'Türkiye tarihinde gündemde',
+        topic : {
+            type:'tag',
+            value:'dilanpolat'
+        },
+        postCount: 2000
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type : 'query',
+            value: 'Starlink'
+        },
+        postCount: 15478
+    },{
+        title: 'Türkiye tarihinde gündemde',
+        topic : {
+            type:'tag',
+            value:'dilanpolat'
+        },
+        postCount: 2000
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type : 'query',
+            value: 'Starlink'
+        },
+        postCount: 15478
+    },{
+        title: 'Türkiye tarihinde gündemde',
+        topic : {
+            type:'tag',
+            value:'dilanpolat'
+        },
+        postCount: 2000
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type : 'query',
+            value: 'Starlink'
+        },
+        postCount: 15478
+    },{
+        title: 'Türkiye tarihinde gündemde',
+        topic : {
+            type:'tag',
+            value:'dilanpolat'
+        },
+        postCount: 2000
+    },
+    {
+        title: 'Türkiye tarihinde gündemde',
+        topic: {
+            type : 'query',
+            value: 'Starlink'
+        },
+        postCount: 15478
     }
 ]
