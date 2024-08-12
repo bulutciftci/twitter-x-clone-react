@@ -20,7 +20,7 @@ export default function Account() {
                             @{account.userName}
                         </div>
                     </div>
-                    <svg viewBox="0 0 24 24" className="text-white ml-auto" width={18.75} height={18.75}>
+                    <svg viewBox="0 0 24 24" className="ml-auto" width={18.75} height={18.75}>
 
                             <path
                                 fill="currentColor"
@@ -37,7 +37,7 @@ export default function Account() {
                     leaveFrom="transform opacity-100"
                     leaveTo="transform opacity-0"
                 >
-                <PopoverPanel className="absolute bottom-full w-[300px] py-3 left-1/2  overflow-hidden -translate-x-1/2 bg-black shadow-box rounded-2xl">
+                <PopoverPanel className="absolute bottom-full w-[300px] py-3 left-1/2  overflow-hidden -translate-x-1/2 bg-[color:var(--background-primary)] shadow-box rounded-2xl">
                     {({ close }) => (
                         <More close={close}/>
                     )}

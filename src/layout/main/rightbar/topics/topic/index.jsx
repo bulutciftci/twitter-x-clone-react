@@ -10,30 +10,30 @@ export default function Topic({item}) {
             className="py-3 px-4 transition-colors hover:bg-white/[0.03] relative"
         >
             {/* eslint-disable-next-line react/prop-types */}
-            <div className="text-[13px] text-[#71767b] leading-4">{item.title}</div>
-            <div className="text-[15px] font-bold leading-5">
+            <div className="text-[13px] text-[color:var(--color-base-secondary)] leading-4">{item.title}</div>
+            <div className="text-[15px]  font-bold leading-5">
                 {/* eslint-disable-next-line react/prop-types */}
                 {item.topic.type === 'tag' && '#'}{item.topic.value}
             </div>
             {/* eslint-disable-next-line react/prop-types */}
             {item?.postCount && (
-                <div className="text-[13px] text-[#71767b] mt-1 leading-4">
+                <div className="text-[13px]  mt-1 leading-4">
                     {/* eslint-disable-next-line react/prop-types */}
                     {numberFormat(item.postCount)} posts
                 </div>
             )}
-            <Popover className=" absolute top-1.5 right-2">
+            <Popover className=" absolute top-1.5 right-2 ">
                 <Popover.Button
-                    className="outline-none w-[31.75px] h-[34.75px] rounded-full text-[#71767b]  flex items-center justify-center hover:bg-[#1d9bf01a] hover:text-[#1d9bf0] transition-colors">
-                        <svg viewBox="0 0 24 24" width={18.75}>
+                    className="outline-none w-[31.75px] h-[34.75px] rounded-full   flex items-center justify-center hover:bg-[#1d9bf01a] hover:text-[#1d9bf0] transition-colors">
+                        <svg viewBox="0 0 24 24" width={18.75} className="text-[color:var(--color-base-secondary)]">
                             <path
                                 fill="currentColor"
                                 d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"/>
                         </svg>
                 </Popover.Button>
-                <PopoverPanel className="w-[384px] rounded-xl grid absolute top-2 right-0 overflow-hidden bg-black shadow-box z-[1]">
+                <PopoverPanel className="w-[384px] rounded-xl grid absolute top-2 right-0 overflow-hidden bg-[color:var(--background-primary)] shadow-box z-[1]">
                     <button type="button"
-                            className="hover:bg-white/[0.1] transition-colors text-left py-3 px-4 flex items-center gap-3 text-[15px] leading-5 font-bold text-[#e7e9ea]">
+                            className="hover:bg-white/[0.1] transition-colors text-left py-3 px-4 flex items-center gap-3 text-[15px] leading-5 font-bold ">
                         <svg viewBox="0 0 24 24" width={19.75}>
                             <path
                                 fill="currentColor"
@@ -42,7 +42,7 @@ export default function Topic({item}) {
                         İlgimi çekmiyor
                     </button>
                     <button type="button"
-                            className=" hover:bg-white/[0.1] transition-colors text-left py-3 px-4 flex items-center gap-3 text-[15px] leading-5 font-bold text-[#e7e9ea]">
+                            className=" hover:bg-white/[0.1] transition-colors text-left py-3 px-4 flex items-center gap-3 text-[15px] leading-5 font-bold ">
                         <svg viewBox="0 0 24 24" width={19.75}>
                             <path
                                 fill="currentColor"
