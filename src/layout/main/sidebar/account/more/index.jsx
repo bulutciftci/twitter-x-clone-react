@@ -18,7 +18,7 @@ export default function More({close}) {
                         setCurrentAccount(account)
                         close()
                     }}
-                    className={classNames("py-3 px-4 flex items-center text-left  w-full transition-colors ", {
+                    className={classNames("py-3 px-4 flex items-center text-left hover:bg-[color:var(--background-third)]  w-full transition-colors ", {
                     "hover:bg-[#eff3f41a]": currentAccount.id !== account.id
                 })}>
                     <img src={account.avatar} className="w-10 h-10 rounded-full" alt=""/>
@@ -36,17 +36,17 @@ export default function More({close}) {
                     )}
                 </button>
             ))}
-            <div className="h-px bg-[#2f3336] my-3"/>
+            <div className="h-px bg-[color:var(--background-third)] my-3"/>
             <button
-                className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] font-bold">
+                className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-third)] w-full text-[15px] font-bold">
                 Var olan bir hesap ekle
             </button>
             <button
-                className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] font-bold">
+                className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-third)] w-full text-[15px] font-bold">
                 Hesapları Yönet
             </button>
             <button
-                className="py-3 px-4 text-left transition-colors hover:bg-[#eff3f41a] w-full text-[15px] font-bold">
+                className="py-3 px-4 text-left transition-colors hover:bg-[color:var(--background-third)] w-full text-[15px] font-bold">
                 Mevcut hesaptan çıkış yap
             </button>
         </div>

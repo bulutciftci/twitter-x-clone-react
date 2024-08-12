@@ -8,10 +8,10 @@ export default function Account() {
 
 
     return (
-        <div className="mt-auto">
+        <div className="mt-auto ">
             <Popover className="relative">
                 <PopoverButton
-                    className="my-3 p-3 rounded-full hover:bg-[#eff3f41a] w-full flex text-left transition-colors items-center outline-none"
+                    className="my-3 p-3 rounded-full hover:bg-[color:var(--background-third)] w-full flex text-left transition-colors items-center outline-none"
                 >
                     <img src={account.avatar} className="w-10 h-10 rounded-full" alt=""/>
                     <div className="mx-3 text-[15px]">
@@ -37,7 +37,7 @@ export default function Account() {
                     leaveFrom="transform opacity-100"
                     leaveTo="transform opacity-0"
                 >
-                <PopoverPanel className="absolute bottom-full w-[300px] py-3 left-1/2  overflow-hidden -translate-x-1/2 bg-[color:var(--background-primary)] shadow-box rounded-2xl">
+                <PopoverPanel className="absolute bottom-full w-[300px] py-3 left-1/2  overflow-hidden -translate-x-1/2  bg-[color:var(--background-primary)] shadow-box rounded-2xl">
                     {({ close }) => (
                         <More close={close}/>
                     )}

@@ -118,7 +118,7 @@ export default function More() {
                                 className="h-[52px] flex items-center justify-between w-full px-4 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
                                 İçerik Üretici Stüdyosu
                                 <svg className={classNames({
-                                    "rotate-90 text-[color:var(--primary-color)]" : open
+                                    "rotate-90 text-[color:var(--color-primary)]" : open
                                 })} viewBox="0 0 24 24" width={18.75} height={18.75}>
                                     <path
                                         fill="currentColor"
@@ -139,7 +139,7 @@ export default function More() {
                             className="py-2 h-[52px] flex items-center justify-between w-full px-4 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
                             Profesyonel Araçlar
                             <svg  className={classNames({
-                                "rotate-90 text-[color:var(--primary-color)]" : open
+                                "rotate-90 text-[color:var(--color-primary)]" : open
                             })}
                                   viewBox="0 0 24 24" width={18.75} height={18.75}>
                                 <path
@@ -159,7 +159,7 @@ export default function More() {
                         <Disclosure.Button className=" h-[52px] flex items-center justify-between w-full px-4 font-bold hover:bg-[color:var(--background-secondary)] transition-colors">
                             Erişilebilirlik
                             <svg className={classNames({
-                                "rotate-90 text-[color:var(--color-base)]" : open
+                                "rotate-90 text-[color:var(--color-primary)]" : open
                             })}
                                  viewBox="0 0 24 24" width={18.75} height={18.75}>
                                 <path

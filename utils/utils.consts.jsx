@@ -291,3 +291,31 @@ export const topics = [
         postCount: 15478
     }
 ]
+
+export const colors = [
+    {
+        primary: '#1d9bf0',
+        secondary: '#8ecdf8'
+    },
+    {
+        primary: '#ffd400',
+        secondary: '#ffea80'
+    },
+    {
+        primary: '#f91880',
+        secondary: '#fc8cc0'
+    },
+    {
+        primary: '#7856ff',
+        secondary: '#bcabbf'
+    },
+    {
+        primary: '#ff7a00',
+        secondary: '#ffbd80'
+    },
+    {
+        primary: '#00ba7c',
+        secondary: '#80ddbe'
+    },
+
+    ]
