@@ -3,8 +3,8 @@ import {Link} from "react-router-dom";
 export default function Logo(){
     return(
         <div className="py-0.5">
-            <Link to="/" className="text-[color:var(--color-base)] w-[52px] h-[52px] rounded-full flex items-center justify-center hover:bg-[color:var(--background-third)] transition-colors">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#fff"
+            <Link to="/" className="text-[color:var(--color-base)] w-[3.25rem] h-[3.25rem] rounded-full flex items-center justify-center hover:bg-[color:var(--background-third)] transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-[1.875rem]"
                      viewBox="0 0 16 16">
                     <path
                         fill="currentColor"
