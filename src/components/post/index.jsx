@@ -1,4 +1,6 @@
 import {numberFormat} from "../../../utils/formats.jsx";
+import Photo from "~/components/post/photo/index.jsx";
+import Poll from "~/components/post/poll/index.jsx";
 
 export default function Post({post}) {
     return (
@@ -28,6 +30,9 @@ export default function Post({post}) {
                     <div dangerouslySetInnerHTML={{
                         __html: post.content.replace(/\n/g, '<br>')
                     }}/>
+
+                    {post.type === 'photo' && <Photo photos={post.photos}/>}
+                    {post.type === 'poll' && <Poll poll={post.poll} /> }
 
                     <div className="flex -ml-1.5 mt-1.5">
 

@@ -39,9 +39,9 @@ export const posts = [
     {
         id: '1708632465282150796',
         type: 'photo',
-        content: `Toplu günaydın, ben her sabah spora devam ama her gün post atmıyorum artık, max 4 günde bir atarım çünkü en fazla 4 foto paylaşılıyormuş 🤣`,
+        content: `Ulu önderimiz Atatürk'ün kabri Anıtkabir'i ziyaret etmekten gurur duyarız.`,
         photos: [
-            'https://pbs.twimg.com/media/F7VBIvaW0AIZyiX?format=jpg&name=large'
+            'https://pbs.twimg.com/media/GUacyzQW8AAOIxQ?format=jpg&name=large'
         ],
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1775086575900069888/V-NDhYsr_400x400.jpg',
@@ -61,7 +61,7 @@ export const posts = [
         content: `Imagination Land!`,
         photos: [
             'https://pbs.twimg.com/media/F7ZIK8KWgAAP8pH?format=jpg&name=900x900',
-            'https://pbs.twimg.com/media/F7VBIvZXEAAIpEM?format=jpg&name=large'
+            'https://pbs.twimg.com/media/GU6buK_aIAAL3PF?format=jpg&name=large'
         ],
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1683325380441128960/yRsRRjGO_400x400.jpg',
@@ -105,7 +105,7 @@ And people have been busy executing god-like tasks.
         photos: [
             'https://pbs.twimg.com/media/F7bpqaKXkAAopDd?format=jpg&name=900x900',
             'https://pbs.twimg.com/media/F7bptMoXYAA7TpB?format=jpg&name=900x900',
-            'https://pbs.twimg.com/media/F8tfk2JWwAAlY3f?format=jpg&name=large'
+            'https://pbs.twimg.com/media/GSHIEfeW8AE8Stu?format=jpg&name=large'
         ],
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1707827931895017472/1-bUbTT3_400x400.jpg',
@@ -131,9 +131,9 @@ This prompt is going viral- mimicking a creepy iPhone capture that looks insanel
 Prompt in ALT tag + more examples in thread:`,
         photos: [
             'https://pbs.twimg.com/media/F7aKxHhaAAAnHlS?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaW0AAyXEr?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large',
-            'https://pbs.twimg.com/media/F7VBIvaWAAAWUsx?format=jpg&name=large',
+            'https://pbs.twimg.com/media/GUyks8-XcAEwT9H?format=jpg&name=medium',
+            'https://pbs.twimg.com/media/GTLyrsfWIAA_ZYW?format=jpg&name=large',
+            'https://pbs.twimg.com/media/GRahxTJWEAAWNo7?format=jpg&name=large',
         ],
         account: {
             avatar: 'https://pbs.twimg.com/profile_images/1711152452735774720/Cotttl-n_normal.jpg',
